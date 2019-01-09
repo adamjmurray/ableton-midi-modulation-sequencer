@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 204.0, 1175.0, 1002.0 ],
+		"rect" : [ 207.0, 220.0, 1175.0, 1002.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,52 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Ableton Sans",
+					"fontsize" : 9.5,
+					"id" : "obj-39",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1064.5, 816.234375, 35.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 68.234375, 30.0, 17.0 ],
+					"text" : "Slew",
+					"textcolor" : [ 0.549019634723663, 0.549019634723663, 0.549019634723663, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"appearance" : 4,
+					"id" : "obj-36",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 809.0, 856.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 82.0, 34.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.numbox[1]",
+							"parameter_mmax" : 100.0,
+							"parameter_shortname" : "live.numbox[1]",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 5
+						}
+
+					}
+,
+					"textjustification" : 0,
+					"varname" : "live.numbox[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "message",
@@ -171,7 +217,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1028.5, 816.234375, 29.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 19.0, 29.0, 17.0 ],
+					"presentation_rect" : [ 6.0, 21.0, 29.0, 17.0 ],
 					"text" : "Rate",
 					"textcolor" : [ 0.549019634723663, 0.549019634723663, 0.549019634723663, 1.0 ]
 				}
@@ -335,7 +381,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 610.0, 700.0, 42.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 34.0, 30.0, 15.0 ],
+					"presentation_rect" : [ 8.0, 36.0, 30.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
@@ -575,34 +621,6 @@
 			}
 , 			{
 				"box" : 				{
-					"appearance" : 3,
-					"fontface" : 1,
-					"fontname" : "Ableton Sans",
-					"id" : "obj-44",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 820.0, 720.0, 50.0, 62.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 96.0, 50.0, 62.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.dial[1]",
-							"parameter_shortname" : "Slew",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "live.dial[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "modulation",
 					"id" : "obj-43",
 					"index" : 0,
@@ -728,7 +746,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 177.0, 292.734375, 769.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 5.0, 590.0, 46.0 ],
+					"presentation_rect" : [ 46.0, 5.0, 590.0, 46.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.step[2]",
@@ -766,7 +784,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 124.0, 451.734375, 769.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 61.0, 590.0, 46.0 ],
+					"presentation_rect" : [ 46.0, 61.0, 590.0, 46.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.step[1]",
@@ -804,7 +822,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 124.0, 610.734375, 769.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 117.0, 590.0, 46.0 ],
+					"presentation_rect" : [ 46.0, 117.0, 590.0, 46.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.step",
@@ -834,7 +852,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 924.0, 856.0, 96.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 662.0, 164.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 638.0, 164.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1371,9 +1389,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "live.step[2]", "live.step", 0 ],
 			"obj-54" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-44" : [ "live.dial[1]", "Slew", 0 ],
+			"obj-20" : [ "live.step[2]", "live.step", 0 ],
+			"obj-36" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-19" : [ "live.step[1]", "live.step", 0 ],
 			"obj-5" : [ "live.step", "live.step", 0 ],
 			"parameterbanks" : 			{
