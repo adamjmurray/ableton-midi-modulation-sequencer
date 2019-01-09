@@ -88,7 +88,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@stepcolor", 0.18, 0.631, 1.0, 1.0, "@stepcolor2", 0.243, 0.373, 0.588, 1.0, "@signed", 0 ],
+					"args" : [ "@stepcolor", 0.427, 0.843, 1.0, 1.0, "@stepcolor2", 0.231, 0.459, 0.545, 1.0, "@signed", 0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -104,14 +104,14 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 41.0, 162.5, 142.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 657.0, 174.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 691.0, 174.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@stepcolor", 0.992, 0.173, 0.173, 1.0, "@stepcolor2", 0.58, 0.235, 0.235, 1.0, "@extra1_min", -64, "@signed", 1 ],
+					"args" : [ "@stepcolor", 0.0, 0.855, 0.282, 1.0, "@stepcolor2", 0.0, 0.467, 0.153, 1.0, "@extra1_min", -64, "@signed", 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -127,7 +127,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 427.5, 162.5, 143.5, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 400.0, 657.0, 174.0 ],
+					"presentation_rect" : [ 0.0, 400.0, 691.0, 174.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -146,7 +146,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@stepcolor", 0.255, 0.996, 0.176, 1.0, "@stepcolor2", 0.333, 0.584, 0.239, 1.0, "@extra1_min", 0, "@signed", 0 ],
+					"args" : [ "@stepcolor", 0.996, 0.341, 0.294, 1.0, "@stepcolor2", 0.545, 0.188, 0.161, 1.0, "@signed", 0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -162,7 +162,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 237.0, 176.5, 144.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 200.0, 657.0, 174.0 ],
+					"presentation_rect" : [ 0.0, 200.0, 691.0, 174.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -349,21 +349,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-44" : [ "live.dial[3]", "Slew", 0 ],
 			"obj-65::obj-5" : [ "live.step[12]", "live.step", 0 ],
-			"obj-50::obj-20" : [ "live.step[2]", "live.step", 0 ],
-			"obj-65::obj-44" : [ "live.dial[1]", "Slew", 0 ],
-			"obj-65::obj-45" : [ "live.dial", "Step Len", 0 ],
-			"obj-50::obj-45" : [ "live.dial[14]", "Step Len", 0 ],
-			"obj-65::obj-20" : [ "live.step[20]", "live.step", 0 ],
-			"obj-50::obj-19" : [ "live.step[1]", "live.step", 0 ],
-			"obj-50::obj-44" : [ "live.dial[4]", "Slew", 0 ],
-			"obj-66::obj-20" : [ "live.step[4]", "live.step", 0 ],
-			"obj-65::obj-19" : [ "live.step[19]", "live.step", 0 ],
-			"obj-50::obj-5" : [ "live.step", "live.step", 0 ],
-			"obj-66::obj-45" : [ "live.dial[2]", "Step Len", 0 ],
-			"obj-66::obj-5" : [ "live.step[3]", "live.step", 0 ],
-			"obj-66::obj-19" : [ "live.step[14]", "live.step", 0 ],
+			"obj-50::obj-54" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-66::obj-20" : [ "live.step[2]", "live.step", 0 ],
+			"obj-66::obj-54" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-50::obj-44" : [ "live.dial[1]", "Slew", 0 ],
+			"obj-50::obj-5" : [ "live.step[16]", "live.step", 0 ],
+			"obj-50::obj-19" : [ "live.step[15]", "live.step", 0 ],
+			"obj-65::obj-54" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-66::obj-19" : [ "live.step[1]", "live.step", 0 ],
+			"obj-65::obj-19" : [ "live.step[7]", "live.step", 0 ],
+			"obj-65::obj-20" : [ "live.step[13]", "live.step", 0 ],
+			"obj-66::obj-5" : [ "live.step", "live.step", 0 ],
+			"obj-65::obj-44" : [ "live.dial[17]", "Slew", 0 ],
+			"obj-50::obj-20" : [ "live.step[17]", "live.step", 0 ],
+			"obj-66::obj-44" : [ "live.dial[26]", "Slew", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -372,14 +372,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "seq.maxpat",
-				"bootpath" : "D:/workspace/Max/Max-for-Live/at-mod-seq",
+				"bootpath" : "D:/workspace/Max/Max-for-Live/ableton-modulation-sequencer",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq-len.maxpat",
-				"bootpath" : "D:/workspace/Max/Max-for-Live/at-mod-seq",
+				"bootpath" : "D:/workspace/Max/Max-for-Live/ableton-modulation-sequencer",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
