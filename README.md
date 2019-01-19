@@ -5,8 +5,8 @@ An Ableton Live device for step sequencing MIDI modulation.
 ![screenshot](./screenshot.png)
 
 ## Installation and Usage
-1. [Download](https://raw.githubusercontent.com/adamjmurray/ableton-midi-modulation-sequencer/master/releases/MIDI Modulation Sequencer 1.0.amxd) and unzip
-2. Add the `MIDI Modulation Sequencer 1.0.amxd` MIDI effect to a track in Live
+1. [Download](https://github.com/adamjmurray/ableton-midi-modulation-sequencer/raw/master/releases/MIDI%20Modulation%20Sequencer%201.0.amxd) and unzip
+2. Add the `MIDI Modulation Sequencer` MIDI effect to a track in Live
 3. Setup modulation for mod wheel, aftertouch, and/or pitch bend in an instrument in the same track
 4. Change some sequencer steps
 5. Start the transport (this device only outputs during playback)
