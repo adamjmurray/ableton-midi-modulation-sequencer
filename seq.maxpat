@@ -734,7 +734,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.5, 98.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 131.908737182617188, 30.0, 17.0 ],
+					"presentation_rect" : [ 6.0, 111.0, 30.0, 17.0 ],
 					"text" : "Out",
 					"textcolor" : [ 0.549019634723663, 0.549019634723663, 0.549019634723663, 1.0 ]
 				}
@@ -760,7 +760,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Controls how the 3 simultaneous step values are combined.\n\nadd = Add the values, each of which go to 1/3 the max output\naddx3 = Add the values, each of which go to the max output\nmin = Minimum value\nmax = Maximum value\nrand = Random value",
+					"annotation" : "Controls how the 3 simultaneous step values are combined.\n\n· Add: Sum (each is 1/3 max output)\n· Addx3: Sum (each goes to max output)\n· Min: The minimum value\n· Max: The maximum value\n· Rand: Randomly one of the values",
 					"annotation_name" : "Output mode",
 					"appearance" : 4,
 					"fontface" : 1,
@@ -774,7 +774,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 88.8499755859375, 570.0, 42.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 130.908737182617188, 35.0, 42.0 ],
+					"presentation_rect" : [ 7.0, 123.0, 34.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 2,
@@ -784,7 +784,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "out",
-							"parameter_enum" : [ "add", "addx3", "min", "max", "rand" ]
+							"parameter_enum" : [ "Add", "Addx3", "Min", "Max", "Rand" ]
 						}
 
 					}
@@ -810,7 +810,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 567.34375, 139.0, 42.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 7.0, 36.0, 38.0 ],
+					"presentation_rect" : [ 7.0, 18.0, 34.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 2,
@@ -820,7 +820,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 2.0 ],
 							"parameter_shortname" : "Size",
-							"parameter_enum" : [ "small", "med", "large" ]
+							"parameter_enum" : [ "Small", "Med", "Large" ]
 						}
 
 					}
@@ -898,6 +898,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Clears the step pattern.",
+					"annotation_name" : "Reset",
 					"fontface" : 1,
 					"fontname" : "Ableton Sans",
 					"id" : "obj-26",
@@ -913,10 +915,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[8]",
+							"parameter_annotation_name" : "Reset",
+							"parameter_longname" : "Reset[1]",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset",
 							"parameter_enum" : [ "val1", "val2" ]
 						}
 
@@ -995,6 +998,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Clears the step pattern.",
+					"annotation_name" : "Reset",
 					"fontface" : 1,
 					"fontname" : "Ableton Sans",
 					"id" : "obj-18",
@@ -1010,10 +1015,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[4]",
+							"parameter_annotation_name" : "Reset",
+							"parameter_longname" : "Reset",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset",
 							"parameter_enum" : [ "val1", "val2" ]
 						}
 
@@ -2963,7 +2969,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 520.84375, 97.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 87.234375, 30.0, 17.0 ],
+					"presentation_rect" : [ 6.0, 76.0, 30.0, 17.0 ],
 					"text" : "Slew",
 					"textcolor" : [ 0.549019634723663, 0.549019634723663, 0.549019634723663, 1.0 ]
 				}
@@ -2971,9 +2977,10 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Controls the transition speed to each step's value.\n\n0% = Step values output immediately\n50% = Glides to the value in half a step\n100% = Glides to the value over the duration of the entire step",
+					"annotation" : "Controls the transition speed to each step's value.\n\n0% = Step values output immediately\n50% = Glides to the value in half a step\n100% = Glides to the value over a step",
 					"annotation_name" : "Slew",
 					"appearance" : 4,
+					"fontface" : 1,
 					"id" : "obj-36",
 					"lcdbgcolor" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 0.0 ],
 					"maxclass" : "live.numbox",
@@ -2981,9 +2988,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 566.84375, 575.0, 44.0, 15.0 ],
+					"patching_rect" : [ 566.84375, 575.0, 46.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 89.0, 34.0, 38.0 ],
+					"presentation_rect" : [ 7.0, 88.0, 36.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 1,
@@ -3013,7 +3020,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 484.84375, 97.0, 29.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 47.0, 29.0, 17.0 ],
+					"presentation_rect" : [ 6.0, 41.0, 29.0, 17.0 ],
 					"text" : "Rate",
 					"textcolor" : [ 0.549019634723663, 0.549019634723663, 0.549019634723663, 1.0 ]
 				}
@@ -3035,7 +3042,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 46.0, 84.0, 42.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 49.0, 30.0, 38.0 ],
+					"presentation_rect" : [ 7.0, 53.0, 34.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_type" : 2,
@@ -3746,17 +3753,17 @@
 			"obj-17" : [ "live.text[3]", "live.text", 0 ],
 			"obj-23" : [ "live.text[6]", "live.text[5]", 0 ],
 			"obj-12" : [ "autorand[1]", "autorand[1]", 0 ],
-			"obj-1" : [ "reset[1]", "reset[1]", 0 ],
 			"obj-2" : [ "rand[1]", "rand[1]", 0 ],
+			"obj-1" : [ "reset[1]", "reset[1]", 0 ],
 			"obj-5" : [ "live.step", "live.step", 0 ],
 			"obj-10" : [ "size", "Size", 0 ],
 			"obj-25" : [ "live.text[7]", "live.text", 0 ],
 			"obj-16" : [ "live.text[2]", "live.text[5]", 0 ],
 			"obj-36" : [ "slew", "slew", 0 ],
 			"obj-20" : [ "live.step[2]", "live.step", 0 ],
-			"obj-18" : [ "live.text[4]", "live.text", 0 ],
+			"obj-26" : [ "Reset[1]", "Reset", 0 ],
+			"obj-18" : [ "Reset", "Reset", 0 ],
 			"obj-19" : [ "live.step[1]", "live.step", 0 ],
-			"obj-26" : [ "live.text[8]", "live.text", 0 ],
 			"obj-15" : [ "Ouput mode", "out", 0 ],
 			"parameterbanks" : 			{
 
