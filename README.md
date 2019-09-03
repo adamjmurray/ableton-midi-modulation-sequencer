@@ -1,5 +1,11 @@
 # Ableton MIDI Modulation Sequencer
 
+## Deprecated!
+
+This device has been supplanted by my newer [MIDI Modulation Tools](https://github.com/adamjmurray/ableton-midi-modulation-tools). I highly recommend you use them instead.
+
+#
+
 An Ableton Live device for step sequencing MIDI modulation.
 
 ![screenshot](./screenshot.png)
