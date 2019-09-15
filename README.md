@@ -20,7 +20,7 @@ An Ableton Live device for step sequencing MIDI modulation.
 Hover over the controls with the Live's Info View open to see explanations for everything.
 
 ## Features
-* Indepedent sequencers of up to 64 steps for mod wheel, aftertouch, and pitch bend
+* Independent sequencers of up to 64 steps for mod wheel, aftertouch, and pitch bend
 * 3 step patterns in each sequencer with independent loop points for polyrhythms and pseudo-random patterns
 * Slew control to smooth the output
 * Multiple output modes combine the 3 step patterns in various ways: add 3 (normalized add), add, min, max, random
